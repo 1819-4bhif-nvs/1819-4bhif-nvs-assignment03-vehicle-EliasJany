@@ -1,12 +1,144 @@
-target/
+# Erstellt von https://www.gitignore.io/api/java,maven,windows,intellij
+
+### Intellij ###
+# Deckt JetBrains IDEs ab: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio und WebStorm
+# Referenz: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# Benutzerspezifische Sachen
+.idea / ** / workspace.xml
+.idea / ** / tasks.xml
+.idea / ** / usage.statistics.xml
+.idea / ** / Wörterbücher
+.idea / ** / Regal
+
+# Generierte Dateien
+.idea / ** / contentModel.xml
+
+# Empfindliche Dateien oder Dateien mit hoher Abwanderung
+.idea / ** / dataSources /
+.idea / ** / dataSources.ids
+.idea / ** / dataSources.local.xml
+.idea / ** / sqlDataSources.xml
+.idea / ** / dynamic.xml
+.idea / ** / uiDesigner.xml
+.idea / ** / dbnavigator.xml
+
+# Gradel
+.idea / ** / gradle.xml
+.idea / ** / Bibliotheken
+
+# Gradle und Maven mit Auto-Import
+# Wenn Sie Gradle oder Maven mit Auto-Import verwenden, sollten Sie Moduldateien ausschließen,
+# da sie neu erstellt werden und zu Abwanderung führen können. Kommentar entfernen, wenn Sie verwenden
+# Auto-Import.
+# .idea / modules.xml
+# .idea / * .iml
+# .idea / Module
+
+# CMake
+cmake-build - * /
+
+# Mongo Explorer-Plugin
+.idea / ** / mongoSettings.xml
+
+# Dateibasiertes Projektformat
+* .iws
+
+# IntelliJ
+aus/
+
+# mpeltonen / sbt-idea Plugin
+.idea_module /
+
+# JIRA-Plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure-Plugin
+.idea / replstate.xml
+
+# Crashlytics Plugin (für Android Studio und IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-basierter Rest-Client
+.idea / httpRequests
+
+# Android Studio 3.1+ serialisierte Cache-Datei
+.idea / caches / build_file_checksums.ser
+
+### Intellij Patch ###
+# Kommentar Grund: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+# * .iml
+#module.xml
+# .idea / misc.xml
+# * .ipr
+
+# Sonar-Plugin
+.idea / Sonarint
+
+### Java ###
+# Kompilierte Klassendatei
+*.Klasse
+
+# Logdatei
+*.Log
+
+# BlueJ Dateien
+* .ctxt
+
+# Mobile Tools für Java (J2ME)
+.mtj.tmp /
+
+# Paketdateien #
+*.Krug
+*.Krieg
+* .nar
+*.Ohr
+*.Postleitzahl
+* .tar.gz
+* .rar
+
+# Absturzprotokolle für virtuelle Maschinen, siehe http://www.java.com/de/download/help/error_hotspot.xml
+hs_err_pid *
+
+### Maven ###
+Ziel/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
 pom.xml.next
 release.properties
-dependency-reduced-pom.xml
+Abhängigkeit-reduziert-pom.xml
 buildNumber.properties
-.mvn/timing.properties
+.mvn / timing.properties
 
-# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
-!/.mvn/wrapper/maven-wrapper.jar
+# Vermeiden Sie das Ignorieren der Maven-Wrapper-Jar-Datei (JAR-Dateien werden normalerweise ignoriert)
+! /. mvn / wrapper / maven-wrapper.jar
+
+### Windows ###
+# Windows-Thumbnail-Cache-Dateien
+Daumen.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump-Datei
+* .stackdump
+
+# Ordnerkonfigurationsdatei
+[Dd] esktop.ini
+
+# Papierkorb, der für Dateifreigaben verwendet wird
+$ RECYCLE.BIN /
+
+# Windows Installer Dateien
+*.Taxi
+* .msi
+* .msix
+* .msm
+* .msp
+
+# Windows-Verknüpfungen
+* .lnk
